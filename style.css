@@ -51,6 +51,14 @@ nav a:active, .btn:active, .social-media a:active {
     transition: transform 0.2s ease, opacity 0.3s ease;
 }
 
+.titulo-cinzel {
+    font-family: 'Cinzel', serif;
+    font-weight: 700; /* Puedes usar 400 para regular */
+    font-size: 1.0rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
 
 /* Header */
 header {
