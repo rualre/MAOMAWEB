@@ -165,12 +165,13 @@ header nav ul li a:hover {
 #hero p {
     font-size: 1.5em;
     margin-bottom: 30px;
-    text-shadow: 1px 1px 3px #A0A0A0;
+    text-shadow: 2px 2px 4px #A0A0A0;
     color: #F0DDC5;
 }
 #hero img{
     width: 50%;
     align-items: center;
+    
 }
 
 .btn {
@@ -202,6 +203,7 @@ section:nth-of-type(even) {
 }
 
 section:nth-of-type(even) h2 {
+    font-size: 2.5em;
     color: #F0DDC5;
     text-shadow: 2px 2px 4px #333333;
     
@@ -251,6 +253,7 @@ section:nth-of-type(even) p {
     display: block;
     height: auto;
     border-radius: 10px;
+    text-shadow: 2px 2px 4px #333333;
 }
 
 #services .menu h3 {
