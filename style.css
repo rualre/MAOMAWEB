@@ -30,7 +30,7 @@ h1, h2, h3 {
     color: var(--secondary-light-beige);
     text-align: center;
     margin-bottom: 20px;
-    text-shadow: 1px 2px 5px #A0A0A0;
+    text-shadow: 1px 2px 6px #333333;
      font-size: 1.5em;
 }
 
@@ -53,8 +53,8 @@ nav a:active, .btn:active, .social-media a:active {
 
 .titulo-cinzel {
     font-family: 'Cinzel', serif;
-    font-weight: 700; /* Puedes usar 400 para regular */
-    font-size: 1.0rem;
+    font-weight: 550; /* Puedes usar 400 para regular */
+    font-size: 0.1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -154,7 +154,7 @@ header nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay oscuro para mejor legibilidad del texto */
+    background-color: #333333; /* Overlay oscuro para mejor legibilidad del texto */
     z-index: 1;
 }
 
@@ -179,6 +179,7 @@ header nav ul li a:hover {
 #hero img{
     width: 50%;
     align-items: center;
+    
     
 }
 
@@ -213,13 +214,13 @@ section:nth-of-type(even) {
 section:nth-of-type(even) h2 {
     font-size: 2.5em;
     color: #F0DDC5;
-    text-shadow: 2px 2px 4px #333333;
+    text-shadow: 2px 2px 4px #A0A0A0;
     
 }
 
 section:nth-of-type(even) p {
     color: #F0DDC5;
-    text-shadow: 2px 2px 4px #333333;
+    text-shadow: 2px 2px 4px #A0A0A0;
 }
 
 /* About Section */
@@ -234,7 +235,7 @@ section:nth-of-type(even) p {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para efecto hover */
     cursor: pointer; /* Indica que es cliqueable/interactuable */
@@ -242,7 +243,7 @@ section:nth-of-type(even) p {
 
 #about .gallery img:hover {
     transform: scale(1.05); /* Zoom al pasar el ratón */
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Sombra más pronunciada */
+    box-shadow: 4px 20px 16px #F0DDC5; /* Sombra más pronunciada */
 }
 
 /* Services Section */
@@ -251,7 +252,7 @@ section:nth-of-type(even) p {
     background-color: var(--light-accent-grey);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow:  4px 10px rgba(0,0,0,0.3);
     color: #F0DDC5;
     
 }
@@ -292,7 +293,6 @@ section:nth-of-type(even) p {
      width: 20%;
 }
 
-#services 
 
 #services .menu ul li:last-child {
     border-bottom: none;
@@ -311,6 +311,16 @@ section:nth-of-type(even) p {
     color: var(--primary-dark-grey-blue);
     font-weight: bold;
 }
+
+video {
+  width: 50%;
+  height: auto;
+  max-width: 350px;
+  border-radius: 100px;
+   
+    box-shadow: 9px 10px 16px #F0DDC5;
+}
+
 
 /* Contact Section */
 #contact {
