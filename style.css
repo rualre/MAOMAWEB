@@ -54,9 +54,10 @@ nav a:active, .btn:active, .social-media a:active {
 .titulo-cinzel {
     font-family: 'Cinzel', serif;
     font-weight: 550; /* Puedes usar 400 para regular */
-    font-size: 0.1rem;
+    font-size: 2.5rem;
     letter-spacing: 1px;
     text-transform: uppercase;
+    box-shadow: 9 2px 5px var(--primary-dark-grey-blue);
 }
 
 
@@ -110,6 +111,7 @@ header nav {
     opacity: 0;
     transform: translateX(20px);
     animation: fadeInSlideLeft 1s ease-out forwards 0.5s; /* Retraso */
+    border-bottom: 8px #F0DDC5;
 }
 
 header nav ul {
@@ -118,6 +120,8 @@ header nav ul {
     padding: 0;
     display: flex;
     margin-right: 20px;
+    border-bottom: 8px #F0DDC5;
+    
 }
 
 header nav ul li {
@@ -128,6 +132,7 @@ header nav ul li a {
     font-weight: bold;
     padding: 5px 0;
     transition: color 0.3s ease;
+    border-bottom: 8px #F0DDC5;
 }
 
 header nav ul li a:hover {
@@ -313,12 +318,12 @@ section:nth-of-type(even) p {
 }
 
 video {
-  width: 50%;
+  width: 45%;
   height: auto;
-  max-width: 350px;
-  border-radius: 100px;
-   
-    box-shadow: 9px 10px 16px #F0DDC5;
+  max-width: 270px;
+  border-radius: 35px;
+  box-shadow: 0px 8px 12px #F0DDC5;
+  transform: translateY(10px); /* Ligero levantamiento al pasar el ratón */
 }
 
 
