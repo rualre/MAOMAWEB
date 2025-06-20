@@ -264,8 +264,7 @@ section:nth-of-type(even) p {
 
 
 #services .menu img{
-    width: auto;
-    max-width: 500%;
+    max-width: 400%;
     display: block;
     height: auto;
     border-radius: 10px;
