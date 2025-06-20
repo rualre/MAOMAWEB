@@ -238,17 +238,15 @@ section:nth-of-type(even) p {
 
 #about .gallery img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500%;
-    width: auto;
-    height: 330px;
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 90%; /* No se extiende demasiado en pantallas grandes */
+    width: 100%; /* Se adapta al contenedor */
+    height: auto; /* Mantiene proporción original */
     object-fit: cover;
-    align-items: center;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para efecto hover */
-    cursor: pointer; /* Indica que es cliqueable/interactuable */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 #about .gallery img:hover {
