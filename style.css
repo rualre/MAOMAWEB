@@ -60,7 +60,22 @@ nav a:active, .btn:active, .social-media a:active {
     box-shadow: 9 2px 5px var(--primary-dark-grey-blue);
 }
 
-
+.galeria {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+  }
+  
+  .galeria img {
+    width: 300px;
+    height: auto;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+  }
+  
 /* Header */
 header {
     background-color: var(--darker-grey); /* Un gris más oscuro para el header para que el logo resalte */
